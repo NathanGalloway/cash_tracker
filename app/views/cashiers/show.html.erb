@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @cashier %>
+
+<div>
+  <%= link_to "Edit this cashier", edit_cashier_path(@cashier) %> |
+  <%= link_to "Back to cashiers", cashiers_path %>
+
+  <%= button_to "Destroy this cashier", @cashier, method: :delete %>
+</div>
